@@ -1,4 +1,4 @@
-# TypeScript exercises
+# exercices TypeScript 
 
 Start your journey here: https://typescript-exercises.github.io/
 
