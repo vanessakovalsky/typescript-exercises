@@ -1,6 +1,6 @@
 /*
 
-Welcome to:
+Bienvenue:
 
     ................................................................
     .                                                              .
@@ -16,8 +16,8 @@ Welcome to:
     .                                                              .
     ................................................................
 
-    The goal: Let everyone play with many different TypeScript features
-    and get an overview of TypeScript capabilities and principles.
+    Objectif : permettre à tous de jour avec différentes fonctionalités de TypeScript
+    et obtenir un aperçu des capacités de TypeScript et de ses principes.
 
     Things to cover:
 
