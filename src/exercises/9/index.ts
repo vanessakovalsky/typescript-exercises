@@ -2,28 +2,31 @@
 
 Intro:
 
-    PowerUsers idea was bad. Once those users got
-    extended permissions, they started bullying others
-    and we lost a lot of great users.
-    As a response we spent all the remaining money
-    on the marketing and got even more users.
-    We need to start preparing to move everything to a
-    real database. For now we just do some mocks.
+    L'idée des PowersUser était mauvaise. Une fois
+    que ces utilisateurs ont eu des permissions étendus,
+    ils ont commencé à intimider les autres et nous
+    avons perdu beaucoup de bons utilisateurs.
+    En réaction nous avons dépenser tout l'argent
+    restant en marketing et avons obtenu encore
+    plus d'utilisateurs.
+    Nous devons préparer à tout déplacer dans une vrai 
+    base de données. Pour l'instant nous faisons seulement
+    des bouchons.
 
-    The server API format was decided to be the following:
+    Le format du serveur d'API a été décidé pour être le suivant :
 
-    In case of success: { status: 'success', data: RESPONSE_DATA }
-    In case of error: { status: 'error', error: ERROR_MESSAGE }
+    En cas de succès: { status: 'success', data: RESPONSE_DATA }
+    En cas d'erreur: { status: 'error', error: ERROR_MESSAGE }
 
-    The API engineer started creating types for this API and
-    quickly figured out that the amount of types needed to be
-    created is too big.
+    Les ingénieurs de l'API ont commencé à créer des types pour cette
+    API et se sont rapidement rendu compte que la quantité de types
+    nécessaire était trop grande.
 
-Exercise:
+Exercice:
 
-    Remove UsersApiResponse and AdminsApiResponse types
-    and use generic type ApiResponse in order to specify API
-    response formats for each of the functions.
+    Supprimer les types UsersApiResponse et AdminsApiResponse et 
+    utiliser un type générique ApiResponse de sorte à spécifier
+    les formats de réponses d'API pour chacune des fonctions.
 
 */
 

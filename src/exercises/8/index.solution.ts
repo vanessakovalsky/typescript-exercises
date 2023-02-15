@@ -2,18 +2,18 @@
 
 Intro:
 
-    Project grew and we ended up in a situation with
-    some users starting to have more influence.
-    Therefore, we decided to create a new person type
-    called PowerUser which is supposed to combine
-    everything User and Admin have.
+    Le projet grandit et nous arrivons dans une situation
+    ou certains utilisateurs ont plus d'influence.
+    Toutefois, nous avons décidé de créer un nouveau
+    type de personne appelé PowerUser qui est sensé 
+    combiner tout ce qu'un User et un Admin ont.
 
 Exercise:
 
-    Define type PowerUser which should have all fields
-    from both User and Admin (except for type),
-    and also have type 'powerUser' without duplicating
-    all the fields in the code.
+    Définir le type PowerUser qui doit avoir tous les 
+    champs de User et de Admin (sauf le type),
+    et aussi avoir un type powerUser sans dupliquer tous
+    les champs dans le code.
 
 */
 

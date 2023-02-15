@@ -2,34 +2,35 @@
 
 Intro:
 
-    We have asynchronous functions now, advanced technology.
-    This makes us a tech startup officially now.
-    But one of the consultants spoiled our dreams about
-    inevitable future IT leadership.
-    He said that callback-based asynchronicity is not
-    popular anymore and everyone should use Promises.
-    He promised that if we switch to Promises, this would
-    bring promising results.
+    Nous avons maintenant des fonctions asynchrones, technologie
+    avancée. Cela fait de nous officiellement une startup tech.
+    Mais un des consultant a gaché nos rêves à propos
+    de la direction future de l'IT.
+    Il a dit que l'asynchronicité basé sur des callbacks
+    n'est plus populaire et que tout le monde doit utiliser 
+    des Promises.
+    Il a promis que si nous passions aux Promises, cela
+    amènerait le résultat promis.
 
-Exercise:
+Exercice:
 
-    We don't want to reimplement all the data-requesting
-    functions. Let's decorate the old callback-based
-    functions with the new Promise-compatible result.
-    The final function should return a Promise which
-    would resolve with the final data directly
-    (i.e. users or admins) or would reject with an error
-    (or type Error).
+    Nous ne voulons pas réimplanter toutes les fonctions
+    de requêtes de données. Décorons les vieilles fonctions 
+    basées sur des callback avec le nouveau résultat compatible
+    avec les Promises.
+    La fonction final doit retourner une Promise qui 
+    devra traiter la donnée finale directement (user ou admin)
+    ou qui rejettera avec une erreur (ou un type Error)
 
-    The function should be named promisify.
+    La fonction doit être nommée promisify.
 
-Higher difficulty bonus exercise:
+Exercice bonnus plus difficile :
 
-    Create a function promisifyAll which accepts an object
-    with functions and returns a new object where each of
-    the function is promisified.
+    Créer une fonction promisifyAll qui accepte un objet avec des 
+    fonctions et retourne un nouvel objet où chaque fonction 
+    est transformé en Promise.
 
-    Rewrite api creation accordingly:
+    Réécrire la création de l'API comme suit:
 
         const api = promisifyAll(oldApi);
 

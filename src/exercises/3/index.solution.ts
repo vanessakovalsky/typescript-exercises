@@ -2,17 +2,18 @@
 
 Intro:
 
-    Since we already have some of the additional
-    information about our users, it's a good idea
-    to output it in a nice way.
+    Puisque nous avons déjà ajouter des informations
+    supplémentaires sur nos utilisateurs, c'est une bonne
+    idée de les afficher correctement.
 
-Exercise:
+Exercice:
 
-    Fix type errors in logPerson function.
+    Fixer les erreurs de type dans la fonction logPerson.
 
-    logPerson function should accept both User and Admin
-    and should output relevant information according to
-    the input: occupation for User and role for Admin.
+    La fonction logPerson devrait accepter à la fois des 
+    User et des Admin et devrait afficher les informations 
+    pertinentes en fonction de l'entrée : occupation pour les 
+    User et role pour les Admin.
 
 */
 

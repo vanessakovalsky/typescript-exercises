@@ -2,22 +2,26 @@
 
 Intro:
 
-    Time to filter the data! In order to be flexible
-    we filter users using a number of criteria and
-    return only those matching all of the criteria.
-    We don't need Admins yet, we only filter Users.
+    Il est temps de filtrer les données! Afin d'être
+    flexible nous filtrons les utilisateurs en utilisant
+    un nombre de critères et nous retournons uniquement 
+    ceux qui correspondent à tous les critères.
+    Nous n'avons pas encore besoin des Admin, nous
+    filtrons seulement les Users.
 
-Exercise:
+Exercice:
 
-    Without duplicating type structures, modify
-    filterUsers function definition so that we can
-    pass only those criteria which are needed,
-    and not the whole User information as it is
-    required now according to typing.
+    Sans dupliquer las types de structure, modifier
+    la définition de la fonction filterUsers de sorte
+    à pouvoir lui passer seulement les critère dont
+    nous avons besoin, et pas l'intégralité des 
+    information du User comme cela est requis actuellement
+    selon le typing.
 
-Higher difficulty bonus exercise:
 
-    Exclude "type" from filter criterias.
+Exercice bonnus plus difficile :
+
+    Exclure "type" des critères de filtre
 
 */
 

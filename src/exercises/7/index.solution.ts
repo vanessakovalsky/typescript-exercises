@@ -2,25 +2,27 @@
 
 Intro:
 
-    Filtering was completely removed from the project.
-    It turned out that this feature was just not needed
-    for the end-user and we spent a lot of time just because
-    our office manager told us to do so. Next time we should
-    instead listen to the product management.
+    Le filtrage a été completment supprimé du projet.
+    Il s'est avéré que cette fonctionnalité n'était pas 
+    nécessaire pour les utilisateurs finaux et que nous
+    avons passés beaucoup de temps car notre chef de projet
+    nous a dit de le faire. La prochaine fois, nous devrions 
+    plutôt écouter le chef de produit.
 
-    Anyway we have a new plan. CEO's friend Nick told us
-    that if we randomly swap user names from time to time
-    in the community, it would be very funny and the project
-    would definitely succeed!
+    Tant pis nous avons un nouveau plan. L'ami du CEO Nick
+    nous a dit que si nous affichions de manière aléatoire le 
+    nom d'un utilisateur de temps en temps dans la communauté, 
+    cela serait vraiment fun et le projet serait alors à coup sur
+    un succès!
 
-Exercise:
+Exercice:
 
-    Implement swap which receives 2 persons and returns them in
-    the reverse order. The function itself is already
-    there, actually. We just need to provide it with proper types.
-    Also this function shouldn't necessarily be limited to just
-    Person types, lets type it so that it works with any two types
-    specified.
+    Implémenter swa qui reçoit 2 persons et les renvoit dans l'ordre
+    inverse. La fonction elle-même est déjà là. Nous avons seulement
+    besoin de la fournir avec les bons types.
+    De plus cette fonction, ne doit pas nécessairement être limité
+    au type Person, typons la de sorte à ce qu'elle fonctionne avec
+    les deux types définis.
 
 */
 

@@ -2,19 +2,19 @@
 
 Intro:
 
-    All 2 users liked the idea of the community. We should go
-    forward and introduce some order. We are in Germany after all.
-    Let's add a couple of admins.
+    Les 2 utilisateurs aime l'idée de la communauté. Nous devons avancer
+    et ajouter certaines fonctionnalités. 
+    Ajoutons une paire d'administrateurs.
 
-    Initially we only had users in the in-memory database. After
-    introducing Admins, we need to fix the types so that
-    everything works well together.
+    Itinialement nous acions les utilisateurs dans la base de données en mémoire. 
+    Après l'introduction des Adminn, nous devons fixer les types pour que tout
+    fonctionne correctement ensemble.
 
-Exercise:
+Exercice:
 
-    Type "Person" is missing, please define it and use
-    it in persons array and logPerson function in order to fix
-    all the TS errors.
+    Le Type "Person" est manquant, merci de le définir et de 
+    l'utiliser dans le tableaux des personnes et dans la fonction
+    logPerson afin de corriger toutes les erreurs TS.
 
 */
 

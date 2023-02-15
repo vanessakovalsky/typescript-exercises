@@ -2,16 +2,17 @@
 
 Intro:
 
-    As we introduced "type" to both User and Admin
-    it's now easier to distinguish between them.
-    Once object type checking logic was extracted
-    into separate functions isUser and isAdmin -
-    logPerson function got new type errors.
+    Comme nous avons inroduit le "type" sur les User
+    et les Admin, il est maintenant facile de les 
+    distinguer.
+    Une fois que la logique de vérification des objets
+    est extraite dans des fonctions séparées isUser et isAdmin,
+    la fonction logPerson reçoit de nouveaux type d'erreurs.
 
-Exercise:
+Exercice:
 
-    Figure out how to help TypeScript understand types in
-    this situation and apply necessary fixes.
+    Trouver comment aider TypeScript a comprendre les 
+    types dans cette situations et appliquers les fix nécessaires.
 
 */
 

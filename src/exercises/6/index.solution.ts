@@ -2,24 +2,25 @@
 
 Intro:
 
-    Filtering requirements have grown. We need to be
-    able to filter any kind of Persons.
+    Les besoins de filtrage ont évolulés. Nous avons
+    besoin de filtrer n'importe quel type de Persons.
 
-Exercise:
+Exercice:
 
-    Fix typing for the filterPersons so that it can filter users
-    and return User[] when personType='user' and return Admin[]
-    when personType='admin'. Also filterPersons should accept
-    partial User/Admin type according to the personType.
-    `criteria` argument should behave according to the
-    `personType` argument value. `type` field is not allowed in
-    the `criteria` field.
+    Fixer le typing pour la fonction filterPersons de sorte à ce 
+    qu'elle puisse filtrer les utilisateurs et retourner User[] 
+    lorsque personType='user' et retourner Admin[] lorsque
+    personType='admin'. De plus, filterPersons doit accepter les
+    types User/Admin partiels selon le personType.
+    L'argument `criteria` doit se comporter selon la valeur de
+    l'argument `personType`.
+    Le champ `type` n'est pas autorisé dans le champ `criteria`.
 
-Higher difficulty bonus exercise:
+Exercice bonnus plus difficile :
 
-    Implement a function `getObjectKeys()` which returns more
-    convenient result for any argument given, so that you don't
-    need to cast it.
+    Implémanter une fonction `getObjectKeys()` qui retourne
+    un résultat correct pour n'importe quel nombre d'argument
+    passé, sans avoir besoin des les caster.
 
     let criteriaKeys = Object.keys(criteria) as (keyof User)[];
     -->
