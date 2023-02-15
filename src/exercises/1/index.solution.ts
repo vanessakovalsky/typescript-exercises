@@ -1,6 +1,6 @@
 /*
 
-Welcome to:
+Bienvenue:
 
     ................................................................
     .                                                              .
@@ -16,63 +16,62 @@ Welcome to:
     .                                                              .
     ................................................................
 
-    The goal: Let everyone play with many different TypeScript features
-    and get an overview of TypeScript capabilities and principles.
+    Objectif : permettre à tous de jour avec différentes fonctionalités de TypeScript
+    et obtenir un aperçu des capacités de TypeScript et de ses principes.
 
-    Things to cover:
+    Elements couverts :
 
-        1. Basic typing.
-        2. Refining types.
+        1. Types basiques.
+        2. Modification de types.
         3. Union types.
         4. Merged types.
-        5. Generics.
-        6. Type declarations.
-        7. Module augmentation.
-        8. Advanced type mapping.
+        5. Generiques.
+        6. Déclarations de Type.
+        7. Augmentation de Module.
+        8. Mapping de type avancé.
 
-    Rules and principles:
+    Règles et principes :
 
-        1. Avoid using "any" type at all costs.
-        2. Difficulty quickly grows one exercise after another.
-        3. Feel free to send pull-requests if you've came up
-           with improvements!
-        4. Provide feedback to the creator of these exercises.
-        5. Enjoy.
+        1. Eviter d'utiliser le type "any" à tout prix.
+        2. La difficulté augment progressivement un exercice après l'autre.
+        3. Soyer libre d'envoyer des pull-requests si vous avez des améliorations à apporter!
+        4. Faites un retour au créateur de ces exercices.
+        5. Profitez.
 
-Brief UI guide:
+Bref guide le l'UI :
 
     +--------------------------------------------------------------+
-    | TypeScript exercises                                         |
+    | Exercices TypeScript                                         |
     +--------------------------------------------------------------+
-    | Exercises 1·2·3·4...   << Navigate through exercises >>      |
+    | Exercises 1·2·3·4...   << Navigatation parmi les exercises >>|
     +---------------+----------------------------------------------+
-    | Files         | file.ts   << Filename and status >>          |
+    | Fichiers      | file.ts   << Nom du fichier et status >>     |
     +---------------+----------------------------------------------+
     | file.ts       | 1  import {x} from 'y';                      |
     | dir           | 2                                            |
     |   sub.ts      | 3                                            |
     |               |                                              |
-    | << Current    |   << Currently selected file code editor >>  |
-    | exercise file |                                              |
-    | structure >>  +----------------------------------------------+
-    |               |                                              |
-    |               |   << Errors to fix in order to proceed >>    |
+    | << Structure  | << editeur de code du ficheir selectionné >> |
+    | de fichier    |                                              |
+    | de l'exercice +----------------------------------------------+
+    |  courant >>   |                                              |
+    |               |   << Erreurs à corriger pour l'exécution >>  |
     |               |                                              |
     +---------------+----------------------------------------------+
 
 Intro:
 
-    We are starting a small community of users. For performance
-    reasons we have decided to store all users right in the code.
-    This way we can provide our developers with more
-    user-interaction opportunities. With user-related data, at least.
-    All the GDPR-related issues we will solved some other day.
-    This would be the base for our future experiments during
-    these exercises.
+    Nous démarrons une petite communauté d'utilisateurs.
+    Pour des raisons de performances, nous avons décider de stocker
+    tous les utilisateurs dans le code.
+    De cette manière nous pouvons fournir aux développers plus d'opportunité
+    d'interraction avec les utilisateurs. Au moins avec les données liées aux utilisateurs.
+    Tous les problèmes liés au RGPD seront résolus un autre jour.
+    Cela sera la base de nos futures experimentations pendant ces exercices.
 
-Exercise:
+Exercice:
 
-    Given the data, define the interface "User" and use it accordingly.
+    A partir des données, définir l'interface "User" et l'utiliser en fonction.
 
 */
 
@@ -103,7 +102,7 @@ console.log('Users:');
 users.forEach(logPerson);
 
 
-/* In case if you are stuck:
+/* Si vous êtes bloqué :
 
 // https://www.typescriptlang.org/docs/handbook/2/objects.html
 */
